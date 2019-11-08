@@ -1,0 +1,114 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "92e7d5075a242a0fc3cc0e85ef1317d0",
+    "entities": [
+      {
+        "tableName": "movie_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id_movie` INTEGER NOT NULL, `title_movie` TEXT, `date_movie` TEXT, `genre_movie` TEXT, `description_movie` TEXT, `poster_movie` TEXT, PRIMARY KEY(`id_movie`))",
+        "fields": [
+          {
+            "fieldPath": "id_movie",
+            "columnName": "id_movie",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title_movie",
+            "columnName": "title_movie",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "date_movie",
+            "columnName": "date_movie",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "genre_movie",
+            "columnName": "genre_movie",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "description_movie",
+            "columnName": "description_movie",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "poster_movie",
+            "columnName": "poster_movie",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id_movie"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "tv_table",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id_tv` INTEGER NOT NULL, `title_tv` TEXT, `date_tv` TEXT, `genre_tv` TEXT, `description_tv` TEXT, `poster_tv` TEXT, PRIMARY KEY(`id_tv`))",
+        "fields": [
+          {
+            "fieldPath": "id_tv",
+            "columnName": "id_tv",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title_tv",
+            "columnName": "title_tv",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "date_tv",
+            "columnName": "date_tv",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "genre_tv",
+            "columnName": "genre_tv",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "description_tv",
+            "columnName": "description_tv",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "poster_tv",
+            "columnName": "poster_tv",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id_tv"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '92e7d5075a242a0fc3cc0e85ef1317d0')"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FilmFinal</string>
+    <string name="title_detail_activity">Detail Film</string>
+    <string name="title_movie">Film</string>
+    <string name="title_tv">Acara TV</string>
+    <string name="title_favorite">Favorit</string>
+    <string name="menu_setting_language">Ubah Bahasa</string>
+
+    <string name="poster">poster</string>
+    <string name="language_code">id</string>
+    <string name="overview">Ikhtisar</string>
+
+    <string name="toast_success_add_favorite">Berhasil tambah favorit</string>
+    <string name="delete_favorite">Hapus Favorit</string>
+    <string name="add_favorite">Tambah Favorit</string>
+    <string name="toast_success_delete_from_favorite">Menghapus favorit</string>
+
+    <string name="title">Judul</string>
+    <string name="date">Tanggal</string>
+    <string name="description">Deskripsi</string>
+    <string name="genre">Aliran</string>
+    <string name="no_movie_favorite">Tidak ada film favorite</string>
+    <string name="no_tv_favorite">Tidak ada acara tv favorite</string>
+    <string name="menu_search">Pencarian</string>
+    <string name="no_data">Tidak Ada Data Tersedia</string>
+    <string name="title_tv_favorites">TV Favorit</string>
+    <string name="title_movie_favorites">Film Favorit</string>
+    <string name="reminder">Pengingat</string>
+    <string name="title_activity_settings">Pengaturan</string>
+
+    <string name="summary_release_reminder">Beri pengingat jika ada film baru dirilis</string>
+    <string name="title_release_reminder">Pengingat Rilis</string>
+    <string name="summary_daily_reminder">Pengingat untuk Kembali</string>
+    <string name="title_daily_reminder">Pengingat Harian</string>
+    <string name="toast_daily_reminder_activated">Pengingat Harian Diaktifkan</string>
+    <string name="toast_release_today_reminder_activated">Pengingat Rilis Diaktifkan</string>
+    <string name="toast_daily_reminder_deactivated">Pengingat Harian Dimatikan</string>
+    <string name="toast_release_today_reminder_deactivated">Pengingat Rilis Dimatikan</string>
+    <string name="has_been_released_today"> telah dirilis hari ini!</string>
+    <string name="missing_you"> rindu kamu!</string>
+</resources>

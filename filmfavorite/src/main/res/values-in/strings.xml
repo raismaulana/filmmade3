@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Film Favorite</string>
+    <string name="title_movie">Film</string>
+    <string name="title_tv">Acara TV</string>
+
+    <string name="poster">poster</string>
+    <string name="title">Judul</string>
+    <string name="date">Tanggal</string>
+    <string name="description">Deskripsi</string>
+    <string name="genre">Aliran</string>
+    <string name="no_data">Tidak Ada Data Tersedia</string>
+
+</resources>

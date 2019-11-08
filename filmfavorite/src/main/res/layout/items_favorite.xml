@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view_favorite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/img_poster"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/poster"
+            android:scaleType="fitXY"
+            tools:src="@drawable/ic_broken_image_black_100dp" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_toEndOf="@id/img_poster"
+            android:layout_toRightOf="@id/img_poster"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="@string/title" />
+
+        <TextView
+            android:id="@+id/txt_date"
+            style="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_title"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/img_poster"
+            android:layout_toRightOf="@id/img_poster"
+            android:ellipsize="end"
+            android:textSize="10sp"
+            tools:ignore="SmallSp"
+            tools:text="@string/date" />
+
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_date"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/img_poster"
+            android:layout_toRightOf="@+id/img_poster"
+            android:maxLines="3"
+            android:textSize="12sp"
+            tools:text="@string/description" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
